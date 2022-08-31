@@ -1,0 +1,41 @@
+Javascript console methods to improve debugging🎯
+The console is an javascript object which provides access to the browser’s debugging console.
+
+console can access different methods like logs(), table() by using dot[.] operator.
+
+Here, I’m sharing some interesting methods that will help to debug the code quickly,
+
+⚡️console.table()
+This method will display the data in a table form, most helpful when we are fetching data from an API in an JSON format.
+
+Example & Output
+
+
+Table form of the values
+⚡️console.time() & console.timeEnd()
+This method will help us in understanding the time consumed by the block to execute a piece of code. It starts with time() and ends with timeEnd().These two methods will calculate the total time for the execution.
+
+Example & Output
+
+
+⚡️console.warn()
+This method used to display warning messages if something goes wrong. This method requires a string parameter.
+
+Example & output
+
+
+⚡️console.log({ })
+Often we might get confused with the result of the logs(which is printing what) so this kind of style will help to give a name of the variable along with the output.
+
+Example & Output
+
+
+⚡️console.debug()
+This method outputs a message to the web console at the “debug” log level. The message is only displayed to the user if the console is configured to display debug output. In most cases, the log level is configured within the console UI.
+
+Note: In some of the browsers console.debug is disabled, so it can be enabled using console filter options.
+
+
+Conclusion :
+These methods looks simple but definitely helps in debugging journey and it can save hours. These methods will have the ability to find where does the code goes wrong and easy to spot it.
+
